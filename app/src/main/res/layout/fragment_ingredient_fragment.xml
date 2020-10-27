@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ingredient_fragment">
+
+    <TextView
+        android:id="@+id/meals_title"
+        android:layout_width="0dp"
+        android:text="Ingredients"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".75"
+        app:layout_constraintVertical_bias=".15"
+        app:layout_constraintHorizontal_bias=".5"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/title_bg"
+        android:padding="30dp"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/meals_title"
+        app:layout_constraintStart_toStartOf="@+id/meals_title"
+        app:layout_constraintTop_toBottomOf="@+id/meals_title">
+
+        <TextView
+            android:id="@+id/text_ingred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textAlignment="textStart"
+            android:text=""/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

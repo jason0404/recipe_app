@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bg_Color">#1F2739</color>
+    <color name="grey">#A7A1AE</color>
+    <color name="even">#364463</color>
+    <color name="odd">#2C3446</color>
+    <color name="word">#A7A1AE</color>
+    <color name="Title">#4DC3FA</color>
+    <color name="placeholder_color">#dddddd</color>
+</resources>
